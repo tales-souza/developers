@@ -1,0 +1,10 @@
+    #card{
+    margin-left: 10px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    #card .card{
+        margin-left:10px;
+    }
