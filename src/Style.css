@@ -1,5 +1,5 @@
 #App{
-    padding: 65px;
+    padding-left: 100px;
     display:flex; 
     flex-direction:row;
     align-items: flex-start;
@@ -18,8 +18,14 @@
     }
 
     #App main{
-        margin-left:0;
+        padding-left:0px;
         margin-top: 20;
     }
+
+    #App aside{
+        padding-left:0px;
+
+    }
+
 }
 

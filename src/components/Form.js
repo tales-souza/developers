@@ -2,9 +2,9 @@
  import api from '../services/api';
 
 
-const Form = () => {
+const Form = (props) => {
   
-
+  const { prop1, prop2  } = props; 
   const [ devs, setDevs ] = useState('')
   const [github_username, setGithub_username] = useState('');
   const [techs, setTechs] = useState('');
@@ -39,8 +39,8 @@ const Form = () => {
       longitude,
     })
 
-    setGithub_username('');
-    setTechs('');
+    setGithub_username(prop1);
+    setTechs(prop2);
     setDevs([...devs, response.data]);
   }
 

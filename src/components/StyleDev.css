@@ -1,5 +1,7 @@
     #card{
-    margin-left: 10px;
+    
+    margin: 0%;
+    margin-left: 0px;
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -8,3 +10,21 @@
     #card .card{
         margin-left:10px;
     }
+
+
+    @media (max-width: 1000px) {
+        #card{
+            flex-direction: column;
+        }
+    
+        #App main{
+            margin-left:0;
+            margin-top: 20;
+        }
+
+    #App aside{
+            padding-left:0;
+
+        }
+    }
+    

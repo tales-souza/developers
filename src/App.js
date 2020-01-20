@@ -12,7 +12,7 @@ function App() {
 
     <div id="App">
       <aside>
-        <Form />
+        <Form prop1="" prop2="" />
       </aside>
 
       <main>
